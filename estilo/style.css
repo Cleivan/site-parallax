@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100vh; /*Deixando o header do tamanho completo da tela*/
+}
+
+.imagem {
+    background-attachment: fixed; /*Efeito Parallax*/
+}
+
+header#container {
+    background-image: url('../imagens/cidade.jpg');
+    background-position: right center;
+    background-size: cover;
+    opacity: 0.7; /*Deixando a imagem transparente*/
+} 
+
+.conteudo > p {
+    font-size: 3em;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.conteudo {
+    background-color: black;
+    position: absolute;
+    height: 10%;
+    width: 30%;
+    color: white;
+    font-variant: small-caps; /*Deixando tudo em letra maiscula*/
+
+    left: 50%; /*Deixando a caixa exatamente no meio da pagina*/
+    top: 50%; /*Deixando a caixa exatamente no meio da pagina*/
+
+    transform: translate(-50%, -50%); /*Deixando a caixa exatamente no meio da pagina*/
+}
+
+.primeira {
+    background-color: #f3f3f3;
+    color:#76797e;
+    height: 200px;
+    width: 100%;
+    min-height: 100%; /*Tamanho minimo vai ser 100% ou 100vh*/
+}
+
+.primeira > p {
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 1.8; /*Espaçamento entre as linhas*/
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+}
+
+.primeira > h1{
+    font-size: 2em;
+    text-align: center;
+    padding-top: 70px;
+}
