@@ -9,7 +9,7 @@ header {
     height: 100vh; /*Deixando o header do tamanho completo da tela*/
 }
 
-.imagem {
+.imagem_header {
     background-attachment: fixed; /*Efeito Parallax*/
 }
 
@@ -17,16 +17,16 @@ header#container {
     background-image: url('../imagens/cidade.jpg');
     background-position: right center;
     background-size: cover;
-    opacity: 0.7; /*Deixando a imagem transparente*/
+    opacity: 0.8; /*Deixando a imagem transparente*/
 } 
 
-.conteudo > p {
+.conteudo_header > p {
     font-size: 3em;
     text-align: center;
     padding-top: 10px;
 }
 
-.conteudo {
+.conteudo_header {
     background-color: black;
     position: absolute;
     height: 10%;
@@ -43,14 +43,14 @@ header#container {
 .primeira {
     background-color: #f3f3f3;
     color:#76797e;
-    height: 200px;
+    height: 50vh;
     width: 100%;
     min-height: 100%; /*Tamanho minimo vai ser 100% ou 100vh*/
 }
 
 .primeira > p {
     text-align: center;
-    font-size: 1.1em;
+    font-size: 1.4vw;
     line-height: 1.8; /*Espaçamento entre as linhas*/
     padding-top: 20px;
     padding-left: 60px;
@@ -62,4 +62,54 @@ header#container {
     font-size: 2em;
     text-align: center;
     padding-top: 70px;
+}
+
+.segunda_imagem {
+    height: 50vh;
+    background-position: right center;
+    background-size: cover;
+    opacity: 0.8; /*Deixando a imagem transparente*/
+    background-repeat: no-repeat;
+    background-image: url(../imagens/cidade2.jpg);
+    background-attachment: fixed;
+}
+
+.terceira_imagem {
+    height: 50vh;
+    background-position: right center;
+    background-size: cover;
+    opacity: 0.8; /*Deixando a imagem transparente*/
+    background-repeat: no-repeat;
+    background-image: url(../imagens/cidade3.jpg);
+    background-attachment: fixed;
+}
+
+.quarta_imagem {
+    height: 100vh;
+    background-position: right center;
+    background-size: cover;
+    opacity: 0.8; /*Deixando a imagem transparente*/
+    background-repeat: no-repeat;
+    background-image: url(../imagens/cidade.jpg);
+    background-attachment: fixed;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: lightblue;
 }
